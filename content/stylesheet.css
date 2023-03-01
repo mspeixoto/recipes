@@ -1,0 +1,360 @@
+html{
+    background-color:rgba(122, 191,191,.5) ;
+    height:2140px;
+    width:128px;
+}
+
+body{
+    background-color:#f2f2f2;
+    width: 1030px;
+    height:2140px;
+    position:relative;
+    left: 110px;
+    bottom:30px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    position: relative;
+    top:75px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*street tacos*/
+
+header ul{
+   
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+header li{
+    margin: 10px;
+    position: relative;
+    top: 250px;
+    left: -10px;
+}
+
+#street li{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    top:80px;
+}
+
+#tacos img{
+    width: 40%;
+    position: relative;
+    left: 120px;
+    bottom: 260px;
+    
+}
+
+#tacos p{
+    max-width: 480px;
+    position: relative;
+    bottom:900px;
+    left:540px;
+    font: 16px;
+    font-style:font-family: 'Mogra', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rakkas', cursive;
+    font-family: 'Shrikhand', cursive; ;
+}
+
+#search{
+    position: relative;
+    left:370px;
+    top: 170px;
+}
+
+#avatar{
+    position: relative;
+    left: 940px;
+    top: -10px;
+    z-index: 1;
+}
+
+#avatar p{
+    position: relative;
+    bottom: 30px;
+    left: -5px;
+    font-size: 16px;
+    font-family: 'Mogra', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rakkas', cursive;
+font-family: 'Shrikhand', cursive;
+}
+
+/*details*/
+#details{
+    color:#7abfbf;
+    background-color:black;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 600px;
+}
+
+#details h2{
+    text-align: center;
+}
+   
+dl{
+    list-style: none;
+    display: inline;
+
+}
+dt{
+   font-size: 16px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   display: inline;
+   position: relative;
+   left:40px;
+
+}
+dd{
+    width: 400px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    display:inline;
+    position: relative;
+    top:20px;
+    right:85px;
+}
+
+/*ingredients*/
+
+#ingredients h2{
+    padding-left: 30px;
+    position: relative;
+    bottom: 520px;
+    
+}
+    
+#ingredients{
+    position: relative;
+    bottom: 100px;
+   
+}
+
+#ingredients li{
+    padding-top: 10px;
+    position: relative;
+    bottom:530px;
+    right: 20px;
+    font-size: 16px;
+    font-style: font-family: 'Mogra', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rakkas', cursive;
+    font-family: 'Shrikhand', cursive;
+}
+/*directions*/
+
+article{
+    position: relative;
+    bottom: 1070px;
+    left:225px;
+    width:800px;
+}
+
+article h2{
+    text-align: center;
+    
+}
+
+article li{
+    padding: 10px;
+    position: relative;
+    bottom:10px;
+    font-size: 16px;
+    font-style: font-family: 'Mogra', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rakkas', cursive;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+
+/*dishes*/
+
+#dishes{
+    position: relative;
+    bottom:990px;
+    background-color:#7abfbf;
+    padding-top: 100px;
+}
+
+#meals{
+    position: relative;
+    bottom: 150px;
+}
+
+#dishes img{
+    width: 210px;
+    padding:20px;
+    position: relative;
+    left: 15px;
+    top: 50px;
+
+}
+
+#dishes, h3, p{
+    display: flex;
+    position: relative;
+    padding-top: 10px;  
+}
+
+#dishes h3{
+    position: relative;
+    left: 45px;
+}
+
+#dishes p{
+    position: relative;
+    left:45px;
+}
+
+#dishes p:nth-child(even){
+    font-weight: bold;
+}
+
+
+#meals{
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    bottom: 915px;
+}
+
+/* navigation*/
+
+
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    margin: -15px;
+}
+
+nav a{
+    width:10px;
+    display: inline;
+    position: relative;
+    bottom: 2975px;
+    left:262px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    color:#EB5428;
+    position: relative;
+    right:50px;
+}
+
+nav img{
+    width:4%;
+    position: relative;
+    bottom: 2995px;
+    left: 300px;
+    display: inline-block;
+}
+
+nav img:hover{
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+#navigation{
+    position: relative;
+    bottom: 2900px;
+    padding:15px;
+    background-color:#EB5428;
+
+}
+
+/*footer*/
+
+footer{
+    position: relative;
+    bottom: 600px;
+}
+
+#links li{
+    list-style: none;
+    display: inline;
+    padding-left:50px;
+    position: relative;
+    bottom: 170px;
+    left:500px;
+    color: #EB5428;
+
+}
+
+
+#bottomimg img{
+    width:200px;
+}
+
+#bottomimg p{
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    font-weight: bold;
+}
+
+#bottomimg{
+    position: relative;
+    bottom: 560px;
+    left: 20px;
+}
+
+#links a{
+    text-decoration: none;
+    color: #EB5428;
+    position: relative;
+    left: 450px;
+    bottom: 155px;
+    margin:-20px;
+}
+
+#links{
+  position: relative;
+  bottom:660px;
+}
+
+
+/*BREAK POINT 786PX*/
+
+@media and (max-width:768px){
+
+    html{
+        background-color:rgba(122, 191,191,.5) ;
+        height:2140px;
+        width:768px;
+    }
+    
+    body{
+        background-color:#f2f2f2;
+        width: 330px;
+        height:2140px;
+        position:relative;
+        left: 110px;
+        bottom:30px;
+    }
+    
+}
